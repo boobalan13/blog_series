@@ -1,12 +1,11 @@
-'use client'
 import BlogDetails from '@/Component/BlogDetails'
-import React from 'react'
+import React, { Suspense } from 'react'
 
 const Detail = () => {
   return (
-    <div>
-        <BlogDetails />
-    </div>
+     <Suspense fallback={<div>Loading episode details...</div>}>
+      <BlogDetails />
+    </Suspense>
   )
 }
 
