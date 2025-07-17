@@ -1,0 +1,340 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Keania+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.navbar{
+  width: 97.2vw;
+  height: 10vh;
+  background-color:rgb(138, 128, 128);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 0;
+  
+
+}
+.navbar .img{
+  width: 130px;
+  height: 100%;
+  background-color: rgb(185, 185, 147);
+}
+.title{
+  margin-top: 200px;
+  font-size: 2rem;
+}
+.links{
+  display: flex;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links h3{
+  transition: text-decoration 0.4s ease-in-out;
+  font-size: 16px;
+  font-weight: 500;
+}
+.links h3:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.login_area{
+  width: 99vw;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_box{
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color:white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 10px;
+}
+.signup_box{
+  width: 400px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color:white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 10px;
+}
+.login_box h2{
+  color:black;
+  font-size: 1.7rem;
+}
+.signup_box h2{
+  color:black;
+  font-size: 1.7rem;
+}
+.signup_form{
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.login_form{
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.login_form input{
+  width: 86%;
+  height: 15%;
+  padding-left: 4%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.signup_form input{
+  width: 86%;
+  height: 12%;
+  padding-left: 4%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.login_form button{
+  width: 40%;
+  height: 15%;
+  outline: none;
+  border: none;
+  background-color: rgb(125, 113, 233);
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.signup_form button{
+  width: 40%;
+  height: 10%;
+  outline: none;
+  border: none;
+  background-color: rgb(61, 184, 236);
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.redic{
+  color: rgb(0, 250, 71);
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+
+
+
+.user_area{
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.blog_area{
+  width: 90vw;
+  height: 180vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.blog_box{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: rgba(64, 64, 64, 0.24) 0px 3px 8px;
+
+}
+
+ 
+.details_area{
+  width: 99vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog_ani_img{
+    width: 100%;
+    height: 50%;
+}
+.details_ani_box{
+  height: 35%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.details_ani_box h3{
+  margin: 4px;
+  color: rgba(0, 0, 0, 0.596);
+  font-size: 12px;
+
+}
+.details_ani_box h1{
+  margin: 0;
+  font-size: 20px;
+  color: #e26181;
+}
+span{
+  color: #6bcdcb;
+}
+.btn_ani{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.btn_ani div{
+  color: #70293b;
+}
+.btn_ani button{
+  width: 100px;
+  height: 35px;
+  background-color:#212861;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-right: 20%;
+  color: white;
+}
+
+
+
+.create_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+  height: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.create_form input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border: 1px solid #ccc;
+  font-size: 12px;
+}
+
+.create_form button {
+  background-color: #0f08d9;
+  color: white;
+  padding: 12px;
+  width: 40%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+
+.create_form h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.update_area{
+  width:400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.update_area input{
+  width: 82%;
+  height: 7%;
+  padding-left: 4%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.717);
+}
+.update_area button{
+   width: 160px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #0816d9;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.update_form{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.update_form input{
+  width: 82%;
+  height: 10%;
+  padding-left: 4%;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.update_form button{
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.admin_area{
+  width: 99vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
